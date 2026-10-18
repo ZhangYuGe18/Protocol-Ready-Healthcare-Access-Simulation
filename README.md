@@ -23,5 +23,3 @@ python -m unittest discover -s tests
 The public API is `protocol_access.simulate_cohort(frame, pars, config, scenario, seed)`; `frame` is an in-memory `pandas.DataFrame`. See `examples/synthetic_demo.py` for the expected abstract columns and configuration keys. No file path, data connector, or external service is required. The model retains simulated queue dynamics, but no observed queue logs or route-configuration counts are shipped.
 
 This software is intended for methodological exploration and aggregate scenario comparison, not individual clinical decisions. To reproduce a particular study, authorized investigators must separately supply and validate their own data and calibrated parameters.
-
-中文说明：[README_zh-CN.md](README_zh-CN.md)
